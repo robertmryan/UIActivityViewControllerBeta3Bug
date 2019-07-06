@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		83AD13B622CFF9C30046A8F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AD13B522CFF9C30046A8F8 /* AppDelegate.swift */; };
 		83AD13B822CFF9C30046A8F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AD13B722CFF9C30046A8F8 /* SceneDelegate.swift */; };
-		83AD13BA22CFF9C30046A8F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AD13B922CFF9C30046A8F8 /* ViewController.swift */; };
+		83AD13BA22CFF9C30046A8F8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AD13B922CFF9C30046A8F8 /* SecondViewController.swift */; };
 		83AD13BD22CFF9C30046A8F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83AD13BB22CFF9C30046A8F8 /* Main.storyboard */; };
 		83AD13BF22CFF9C30046A8F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83AD13BE22CFF9C30046A8F8 /* Assets.xcassets */; };
 		83AD13C222CFF9C30046A8F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83AD13C022CFF9C30046A8F8 /* LaunchScreen.storyboard */; };
@@ -19,11 +19,12 @@
 		83AD13B222CFF9C30046A8F8 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AD13B522CFF9C30046A8F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83AD13B722CFF9C30046A8F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		83AD13B922CFF9C30046A8F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83AD13B922CFF9C30046A8F8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		83AD13BC22CFF9C30046A8F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83AD13BE22CFF9C30046A8F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83AD13C122CFF9C30046A8F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83AD13C322CFF9C30046A8F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B2D3F322D131C7007AA1CD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		83AD13A922CFF9C30046A8F8 = {
 			isa = PBXGroup;
 			children = (
+				83B2D3F322D131C7007AA1CD /* README.md */,
 				83AD13B422CFF9C30046A8F8 /* MyApp */,
 				83AD13B322CFF9C30046A8F8 /* Products */,
 			);
@@ -58,7 +60,7 @@
 			children = (
 				83AD13B522CFF9C30046A8F8 /* AppDelegate.swift */,
 				83AD13B722CFF9C30046A8F8 /* SceneDelegate.swift */,
-				83AD13B922CFF9C30046A8F8 /* ViewController.swift */,
+				83AD13B922CFF9C30046A8F8 /* SecondViewController.swift */,
 				83AD13BB22CFF9C30046A8F8 /* Main.storyboard */,
 				83AD13BE22CFF9C30046A8F8 /* Assets.xcassets */,
 				83AD13C022CFF9C30046A8F8 /* LaunchScreen.storyboard */,
@@ -138,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83AD13BA22CFF9C30046A8F8 /* ViewController.swift in Sources */,
+				83AD13BA22CFF9C30046A8F8 /* SecondViewController.swift in Sources */,
 				83AD13B622CFF9C30046A8F8 /* AppDelegate.swift in Sources */,
 				83AD13B822CFF9C30046A8F8 /* SceneDelegate.swift in Sources */,
 			);
@@ -294,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.robertmryan.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.robertmryan.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
